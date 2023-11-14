@@ -11,7 +11,7 @@ public class Circulo extends Figura{
         for (int i = 0; i<2; i++){
             System.out.println("Ingrese la componente X del punto: "+i);
             double x = sc.nextDouble();
-            System.out.println("Ingrese la componente X del punto: "+i);
+            System.out.println("Ingrese la componente Y del punto: "+i);
             double y = sc.nextDouble();
             Punto punto = new Punto(x,y);
             this.listaPuntos.add(punto);
